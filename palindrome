@@ -1,0 +1,22 @@
+public class palindrome{
+	public static void main(String[] x)
+	{
+		int a=1221;
+		int num=a;
+		int num2=0;
+		while(a>0)
+		{
+		int b=a%10;
+		num2=num2*10+b;
+		a=a/10;
+		}
+		if(num==num2)
+		{
+		System.out.println("Palindrome");
+		}
+		else
+		{
+		System.out.println("not a palindrome");
+		}	
+	}
+	}
